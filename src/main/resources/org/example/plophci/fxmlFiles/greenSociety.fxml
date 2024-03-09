@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TitledPane?>
+<?import javafx.scene.control.ToolBar?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox fx:id="linksVbox" alignment="CENTER" fillWidth="false" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.plophci.HomeApplication">
+    <children>
+        <VBox alignment="CENTER" fillWidth="false">
+            <children>
+            <FlowPane alignment="CENTER" columnHalignment="CENTER" focusTraversable="true" maxWidth="1.7976931348623157E308">
+               <children>
+                  <StackPane alignment="TOP_CENTER">
+                     <children>
+                        <VBox alignment="CENTER">
+                           <children>
+                              <MenuBar>
+                                <menus>
+                                  <Menu mnemonicParsing="false" text="File">
+                                    <items>
+                                      <MenuItem mnemonicParsing="false" text="Save" />
+                                          <MenuItem mnemonicParsing="false" text="Export to PDF" />
+                                          <MenuItem mnemonicParsing="false" text="Close" />
+                                    </items>
+                                  </Menu>
+                                  <Menu mnemonicParsing="false" text="Home">
+                                    <items>
+                                      <MenuItem mnemonicParsing="false" text="Delete" />
+                                    </items>
+                                  </Menu>
+                                  <Menu mnemonicParsing="false" text="Insert">
+                                    <items>
+                                      <MenuItem mnemonicParsing="false" text="About" />
+                                    </items>
+                                  </Menu>
+                                    <Menu mnemonicParsing="false" text="Layout">
+                                       <items>
+                                          <MenuItem mnemonicParsing="false" text="About" />
+                                       </items>
+                                    </Menu>
+                                    <Menu mnemonicParsing="false" text="References">
+                                       <items>
+                                          <MenuItem mnemonicParsing="false" text="About" />
+                                       </items>
+                                    </Menu>
+                                    <Menu mnemonicParsing="false" text="Review">
+                                       <items>
+                                          <MenuItem mnemonicParsing="false" text="About" />
+                                       </items>
+                                    </Menu>
+                                    <Menu mnemonicParsing="false" text="View">
+                                       <items>
+                                          <MenuItem mnemonicParsing="false" text="About" />
+                                       </items>
+                                    </Menu>
+                                    <Menu mnemonicParsing="false" text="Help">
+                                       <items>
+                                          <MenuItem mnemonicParsing="false" text="About" />
+                                       </items>
+                                    </Menu>
+                                </menus>
+                              </MenuBar>
+                              <StackPane>
+                                 <children>
+                                    <ImageView fitWidth="1000.0" focusTraversable="true" nodeOrientation="INHERIT" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../JavaPics/HCI/toolbar.png" />
+                                       </image>
+                                    </ImageView>
+                                 </children>
+                              </StackPane>
+                              <FlowPane alignment="CENTER" columnHalignment="CENTER">
+                                 <children>
+                                    <ToolBar fx:id="header3">
+                                       <items>
+                                          <Label fx:id="header" alignment="CENTER" contentDisplay="CENTER" text="Auto Import Tools" textAlignment="CENTER" underline="true" wrapText="true" />
+                                       </items>
+                                    </ToolBar>
+                                 </children>
+                              </FlowPane>
+                              <StackPane VBox.vgrow="ALWAYS">
+                                 <children>
+                                    <HBox alignment="TOP_CENTER" maxHeight="-Infinity" minHeight="-Infinity">
+                                       <children>
+                                          <TitledPane animated="false" expanded="false" text="CMAS" HBox.hgrow="ALWAYS">
+                                             <content>
+                                                <AnchorPane maxWidth="1.7976931348623157E308">
+                                                   <children>
+                                                      <VBox alignment="CENTER">
+                                                         <children>
+                                                            <Button alignment="CENTER" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#switchStudentReport" text="Student Report">
+                                                               <font>
+                                                                  <Font size="14.0" />
+                                                               </font>
+                                                            </Button>
+                                                            <Button alignment="CENTER" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#switchScoreSummary" text="Score Summary">
+                                                               <font>
+                                                                  <Font size="14.0" />
+                                                               </font>
+                                                            </Button>
+                                                            <Button alignment="CENTER" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#switchScoreComposition" text="Score Comparison">
+                                                               <font>
+                                                                  <Font size="14.0" />
+                                                               </font>
+                                                            </Button>
+                                                         </children>
+                                                      </VBox>
+                                                   </children>
+                                                </AnchorPane>
+                                             </content>
+                                          </TitledPane>
+                                          <TitledPane animated="false" expanded="false" text="Star Assessment" HBox.hgrow="ALWAYS">
+                                             <content>
+                                                <AnchorPane minHeight="0.0" minWidth="0.0">
+                                                   <children>
+                                                      <VBox>
+                                                         <children>
+                                                            <Button alignment="CENTER" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#switchStarDiagnostic" text="Star Diagnostic Report">
+                                                               <font>
+                                                                  <Font size="14.0" />
+                                                               </font>
+                                                            </Button>
+                                                            <Button alignment="CENTER" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#switchStarAnnualProgress" text="Star Annual Progress Report">
+                                                               <font>
+                                                                  <Font size="14.0" />
+                                                               </font>
+                                                            </Button>
+                                                            <Button alignment="CENTER" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#switchTestRecord" text="Star Test Record">
+                                                               <font>
+                                                                  <Font size="14.0" />
+                                                               </font>
+                                                            </Button>
+                                                         </children>
+                                                      </VBox>
+                                                   </children>
+                                                </AnchorPane>
+                                             </content>
+                                          </TitledPane>
+                                          <TitledPane animated="false" expanded="false" text="Woodcock Johnson" HBox.hgrow="ALWAYS">
+                                             <content>
+                                                <AnchorPane minHeight="0.0" minWidth="0.0">
+                                                   <children>
+                                                      <VBox>
+                                                         <children>
+                                                            <Button fx:id="myButton21" alignment="CENTER" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#switchTestsAdministered" text="Tests Administered">
+                                                               <font>
+                                                                  <Font size="14.0" />
+                                                               </font>
+                                                            </Button>
+                                                            <Button fx:id="tableOfScores" alignment="CENTER" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#switchTableOfScores" text="Table Of Scores">
+                                                               <font>
+                                                                  <Font size="14.0" />
+                                                               </font>
+                                                            </Button>
+                                                            <Button alignment="CENTER" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#switchInterpretiveOverview" text="Interpretive Overview">
+                                                               <font>
+                                                                  <Font size="14.0" />
+                                                               </font>
+                                                            </Button>
+                                                            <Button alignment="CENTER" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#switchGeneralSummary" text="General Summary">
+                                                               <font>
+                                                                  <Font size="14.0" />
+                                                               </font>
+                                                            </Button>
+                                                            <Button alignment="CENTER" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#switchBellCurve" text="Bell Curve Visual">
+                                                               <font>
+                                                                  <Font size="14.0" />
+                                                               </font>
+                                                            </Button>
+                                                         </children>
+                                                      </VBox>
+                                                   </children>
+                                                </AnchorPane>
+                                             </content>
+                                          </TitledPane>
+                                          <TitledPane animated="false" expanded="false" text="aimswebPlus" HBox.hgrow="ALWAYS">
+                                             <content>
+                                                <AnchorPane minHeight="0.0" minWidth="0.0">
+                                                   <children>
+                                                      <VBox>
+                                                         <children>
+                                                            <Button alignment="CENTER" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#switchSkillsPlan" style=": 2px;" text="Skills Plan Report">
+                                                               <font>
+                                                                  <Font size="14.0" />
+                                                               </font>
+                                                            </Button>
+                                                            <Button alignment="CENTER" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#switchStudentProfile" style=": 2px;" text="Student Profile">
+                                                               <font>
+                                                                  <Font size="14.0" />
+                                                               </font>
+                                                            </Button>
+                                                            <Button alignment="CENTER" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#switchBenchmark" style=": 2px;" text="Individual Benchmark">
+                                                               <font>
+                                                                  <Font size="14.0" />
+                                                               </font>
+                                                            </Button>
+                                                            <Button alignment="CENTER" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#switchScoreSnapshot" style=": 2px;" text="Score Snapshots">
+                                                               <font>
+                                                                  <Font size="14.0" />
+                                                               </font>
+                                                            </Button>
+                                                            <Button alignment="CENTER" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#switchScoresSummary" style=": 2px;" text="Score Summary">
+                                                               <font>
+                                                                  <Font size="14.0" />
+                                                               </font>
+                                                            </Button>
+                                                         </children>
+                                                      </VBox>
+                                                   </children>
+                                                </AnchorPane>
+                                             </content>
+                                          </TitledPane>
+                                       </children>
+                                    </HBox>
+                                 </children>
+                              </StackPane>
+                           </children>
+                        </VBox>
+                     </children>
+                  </StackPane>
+               </children>
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+            </FlowPane>
+            <VBox alignment="CENTER" fillWidth="false">
+               <children>
+                  <ScrollPane>
+                     <content>
+                        <StackPane fx:id="stackPane">
+                           <children>
+                              <VBox alignment="CENTER">
+                                 <children>
+                                    <FlowPane alignment="CENTER" columnHalignment="CENTER" VBox.vgrow="ALWAYS">
+                                       <children>
+                                          <ToolBar fx:id="header">
+                                             <items>
+                                                <StackPane alignment="CENTER_LEFT" nodeOrientation="LEFT_TO_RIGHT">
+                                                   <children>
+                                                      <CheckBox fx:id="checkBox" mnemonicParsing="false" onAction="#handleCheckBox" text="Include Header Recomendations">
+                                                         <StackPane.margin>
+                                                            <Insets />
+                                                         </StackPane.margin>
+                                                      </CheckBox>
+                                                   </children>
+                                                   <padding>
+                                                      <Insets left="-350.0" />
+                                                   </padding>
+                                                </StackPane>
+                                                <StackPane alignment="CENTER_RIGHT">
+                                                   <children>
+                                                      <Label fx:id="header1" alignment="CENTER" contentDisplay="CENTER" text="Present Levels Of Performance" textAlignment="CENTER" underline="true" wrapText="true" />
+                                                   </children>
+                                                </StackPane>
+                                             </items>
+                                          </ToolBar>
+                                       </children>
+                                    </FlowPane>
+                                    <TextArea fx:id="textArea" minHeight="450.0" minWidth="1015.0" wrapText="true">
+                                       <cursor>
+                                          <Cursor fx:constant="TEXT" />
+                                       </cursor></TextArea>
+                                    <VBox fx:id="vBox" alignment="CENTER_LEFT">
+                                       <children>
+                                          <HBox fx:id="hbox" />
+                                       </children>
+                                    </VBox>
+                                 </children>
+                              </VBox>
+                           </children>
+                        </StackPane>
+                     </content>
+                  </ScrollPane>
+               </children>
+            </VBox>
+            </children>
+        </VBox>
+    </children>
+</VBox>

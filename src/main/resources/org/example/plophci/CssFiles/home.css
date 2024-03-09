@@ -1,0 +1,122 @@
+.root {
+    -fx-background-color: #F0F0F0;;
+}
+.button-bar{
+    -fx-padding: 0;
+    -fx-spacing: 0;
+    -fx-alignment: center;
+    -fx-text-alignment: center;
+    }
+
+.button {
+
+    -fx-text-alignment: center;
+    -fx-font-size: 16px;
+    -fx-effect: dropshadow( gaussian , rgba(255,255,255,0.5) , 0,0,0,1 );
+    -fx-effect: innershadow( three-pass-box , rgba(0,0,0,0.7) , 6, 0.0 , 0 , 2 );
+    -fx-padding: 0 0;
+    -fx-background-radius: 0;
+    -fx-font-weight: bold;
+    -fx-cursor: hand;
+    -fx-alignment: center;
+}
+
+.button:hover {
+    -fx-background-color:   #daa520;
+    -fx-background-size: 1px;
+}
+
+.button-bar.button:pressed {
+    -fx-background-color: #3E9142;
+}
+
+.label{
+    -fx-background-color: transparent;
+    -fx-font-size: 16px;
+    -fx-text-fill: black;
+    -fx-font-weight: bold;
+    -fx-text-alignment: center;
+    -fx-alignment: center;
+    -fx-effect: dropshadow( gaussian , rgba(255,255,255,0.5) , 0,0,0,1 );
+    -fx-effect: innershadow( three-pass-box , rgba(0,0,0,0.7) , 6, 0.0 , 0 , 2 );
+}
+
+#h2 {
+    -fx-font-size:15px;
+    -fx-text-fill: darkslategray;
+    -fx-font-family: "Arial Black";
+    -fx-text-alignment: center;
+    -fx-wrap-text: true;
+    -fx-effect: innershadow( three-pass-box , rgba(0,0,0,0.7) , 6, 0.0 , 0 , 2 );
+}
+
+.text-area-style {
+    -fx-font-family: 'Arial Black';
+    -fx-font-size: 15px;
+    -fx-text-fill: #363534;
+    -fx-effect: innershadow(three-pass-box, rgba(0, 0, 0, 0.7), 6, 0.0, 0, 2);
+}
+
+.text-area .content {
+    -fx-background-color: #F0F0F0;
+}
+
+.check-box {
+    -fx-background-color: transparent;
+    -fx-font-size: 12px;
+    -fx-text-fill: black;
+    -fx-font-weight: bold;
+    -fx-text-alignment: center;
+    -fx-cursor: hand;
+    -fx-alignment: center;
+    -fx-effect: dropshadow( gaussian , rgba(255,255,255,0.5) , 0,0,0,1 );
+    -fx-effect: innershadow( three-pass-box , rgba(0,0,0,0.7) , 6, 0.0 , 0 , 2 );
+
+}
+
+.scroll-bar:vertical {
+    -fx-background-color: #c9c9c9;
+    -fx-background-radius: 0;
+    -fx-cursor: hand;
+}
+
+.scroll-bar:horizontal {
+    -fx-background-color: #c9c9c9;
+    -fx-background-radius: 0;
+    -fx-cursor: hand;
+}
+
+.scroll-bar .thumb {
+    -fx-background-color: #5A5A5A;
+    -fx-background-radius: 0;
+}
+
+.scroll-bar .thumb:hover {
+    -fx-background-color: #3E3E3E;
+}
+
+.scroll-bar .track-background {
+    -fx-background-color: transparent;
+}
+
+
+.text-area {
+    -fx-font-family: 'Arial Black';
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #363534;
+    -fx-effect: innershadow(three-pass-box, rgba(0, 0, 0, 0.7), 6, 0.0, 0, 2);
+
+}
+
+.titled-pane {
+    -fx-font-size:14px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #363534;
+    -fx-font-family: "Arial Black";
+    -fx-text-alignment: center;
+    -fx-wrap-text: true;
+    -fx-effect: innershadow( three-pass-box , rgba(0,0,0,0.7) , 6, 0.0 , 0 , 2 );
+
+}
+
