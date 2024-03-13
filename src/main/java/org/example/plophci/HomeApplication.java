@@ -946,7 +946,8 @@ public class HomeApplication extends Application {
             if (!benchmarkAdded) {
 
                 ImageView imageView = new ImageView(individualBenchmark);                imageView.setFitWidth(350);
-                imageView.setFitHeight(350);
+                textArea.setPrefWidth(900);
+                textArea.setPrefHeight(200);
 
                 TextArea textArea = hbox.getChildren().isEmpty() ? createTextArea() : (TextArea) hbox.getChildren().get(1);
                 textArea.setPrefWidth(900);
@@ -1005,8 +1006,8 @@ public class HomeApplication extends Application {
             if (!scoreSnapshotsAdded) {
 
                 ImageView imageView = new ImageView(scoreSnapshot);
-                imageView.setFitWidth(350);
-                imageView.setFitHeight(350);
+                textArea.setPrefWidth(900);
+                textArea.setPrefHeight(200);
 
                 TextArea textArea = hbox.getChildren().isEmpty() ? createTextArea() : (TextArea) hbox.getChildren().get(1);
                 textArea.setPrefWidth(900);
@@ -1066,8 +1067,8 @@ public class HomeApplication extends Application {
             if (!scoresSummaryAdded) {
 
                 ImageView imageView = new ImageView(scoresSummary);
-                imageView.setFitWidth(150);
-                imageView.setFitHeight(150);
+                textArea.setPrefWidth(900);
+                textArea.setPrefHeight(200);
 
                 TextArea textArea = hbox.getChildren().isEmpty() ? createTextArea() : (TextArea) hbox.getChildren().get(1);
                 textArea.setPrefWidth(900);

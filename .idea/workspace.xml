@@ -4,36 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="50e3f04e-0d4c-46b0-9237-9b80cbe154c6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/plophci/HelloController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/plophci/HomeApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/org/example/plophci/JavaPics/HCI/annualProg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/org/example/plophci/JavaPics/HCI/bellCurve.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/org/example/plophci/JavaPics/HCI/generalSummary.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/org/example/plophci/JavaPics/HCI/individualBenchmark.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/org/example/plophci/JavaPics/HCI/interpretiveOverview.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/org/example/plophci/JavaPics/HCI/scoreComposition.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/org/example/plophci/JavaPics/HCI/scoreSnapshot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/org/example/plophci/JavaPics/HCI/scoreSummary.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/org/example/plophci/JavaPics/HCI/scoresSummary.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/org/example/plophci/JavaPics/HCI/skillsPlan.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/org/example/plophci/JavaPics/HCI/starDiagnostic.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/org/example/plophci/JavaPics/HCI/starTestRecord.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/org/example/plophci/JavaPics/HCI/studentProfile.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/org/example/plophci/JavaPics/HCI/studentReport.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/org/example/plophci/JavaPics/HCI/tableOfScores.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/org/example/plophci/JavaPics/HCI/testsAdministered.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/org/example/plophci/JavaPics/HCI/toolbar.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/org/example/plophci/hello-view.fxml" afterDir="false" />
+    <list default="true" id="50e3f04e-0d4c-46b0-9237-9b80cbe154c6" name="Changes" comment="initial">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/plophci/HomeApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/plophci/HomeApplication.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,29 +23,30 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2dREsmF72NNqsqDbqPN6kvmJV9L" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.HomeApplication.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/tyty/Dropbox/School/GATECH/CSE_6750_HCI/Project1/Code/Java/plopHCI/src/main/resources/org/example/plophci/JavaPics",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.HomeApplication.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/tyty/Dropbox/School/GATECH/CSE_6750_HCI/Project1/Code/Java/plopHCI/src/main/resources/org/example/plophci/CssFiles&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/org/example/plophci/CssFiles" />
       <recent name="$PROJECT_DIR$/src/main/resources/org/example/plophci/JavaPics" />
       <recent name="$PROJECT_DIR$/src/main/resources/org/example/plophci" />
     </key>
@@ -89,10 +63,24 @@
       <option name="presentableId" value="Default" />
       <updated>1709962567178</updated>
       <workItem from="1709962568176" duration="59000" />
+      <workItem from="1710015142066" duration="28000" />
     </task>
+    <task id="LOCAL-00001" summary="initial">
+      <option name="closed" value="true" />
+      <created>1709963492671</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1709963492671</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial" />
   </component>
 </project>
